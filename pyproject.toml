@@ -44,6 +44,7 @@ dependencies = [
   "datamodel-code-generator>=0.25",
   "Pillow>=10.0.0,<11",
   "msgpack>=1.0.4,<2",
+<<<<<<<
   "psutil",
   "huggingface_hub",
   "iterative-telemetry>=0.0.9"
@@ -51,6 +52,19 @@ dependencies = [
 
 [project.optional-dependencies]
 docs = [
+=======
+
+[project.optional-dependencies]
+docs = [
+  "mkdocs==1.6.1",
+  "mkdocs-gen-files==0.5.0",
+  "mkdocs-material==9.5.36",
+  "mkdocs-section-index==0.3.9",
+  "mkdocstrings-python==1.11.1"
+]
+tests = [
+  "pytest==7.2.0",
+>>>>>>>
   "mkdocs>=1.5.2",
   "mkdocs-gen-files>=0.5.0",
   "mkdocs-material>=9.3.1",
